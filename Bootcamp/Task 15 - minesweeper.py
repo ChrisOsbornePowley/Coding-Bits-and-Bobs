@@ -1,6 +1,5 @@
-#I struggled with this task for a long time, but have finally got a solution that works even if it is not the most efficient!
-#I haven't used the enumerate function that was suggested in the task briefing as I struggled to understand it very well.
-#Would love to get a suggestion for it if possible please!
+#This project makes a grid reminiscient of a Minesweeper grid, with either blank spaces or bomb spaces.
+#It then includes a function to run that returns the grid with the blank spaces replaced by the number of bombs adjacent to it.
 
 #Makes the grid in a 2D list. # represents mines. - represents safe space.
 grid = [["-","-","-","#","-"],
